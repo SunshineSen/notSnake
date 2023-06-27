@@ -10,3 +10,9 @@ for elem in list_one:
     if elem not in list_two:
         list_two.append(elem)
 print(len(list_two), list_two)
+
+
+# через множества
+list_1 = [1, 2, 3, 3]
+list_2 = set(list_1)
+print(len(list_2))
