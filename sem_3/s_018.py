@@ -2,11 +2,16 @@
 ользователь в первой строке вводит натуральное число N – количество элементов в массиве. В последующих  строках записаны N целых чисел Ai. 
 Последняя строка содержит число X '''
 
-elements = int (input ('введите число элементов в массиве: '))
+'''elements = int (input ('введите число элементов в массиве: '))
 list_one = []
 for i in range (elements):
     list_one.append (int (input ('элемент массива: ')))
-print(list_one)
+print(list_one) '''
+
+# другой вариант ввода
+elements = int (input ('введите число элементов в массиве: '))
+string = input ("введите через пробел список элементов: ")
+list_one = [ int(i) for i in string.split() ]
 number = int (input ('введите число: '))
 list_two = []
 for i in range (elements):
