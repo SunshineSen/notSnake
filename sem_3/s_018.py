@@ -9,7 +9,7 @@ for i in range (elements):
 print(list_one) '''
 
 # другой вариант ввода
-elements = int (input ('введите число элементов в массиве: '))
+
 string = input ("введите через пробел список элементов: ")
 list_one = [ int(i) for i in string.split() ]
 number = int (input ('введите число: '))
