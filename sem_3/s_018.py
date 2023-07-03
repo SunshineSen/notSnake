@@ -19,3 +19,4 @@ for i in range (elements):
 
 min_ind = list_two.index(min(list_two))
 print ('наиболее близкое к числу', number, '- число', list_one[min_ind])
+print (f'Число {list_one[1]}')
